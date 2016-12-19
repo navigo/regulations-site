@@ -325,3 +325,22 @@ Clearfix
 // Import no-js.scss and print.scss at the end, since they override other rules
 @import 'module/no-js';
 @import 'print';
+
+
+#logo {
+  height: 51px;
+  margin-right: 55px;
+}
+
+#logo-text-markup {
+  font-family: 'Lato', sans-serif;
+}
+
+#logo-text-redline {
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    font-size: 0.75em;
+    position: absolute;
+    margin-left: -55px;
+    margin-top: 16px;
+}

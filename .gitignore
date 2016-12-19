@@ -83,3 +83,5 @@ regulations.egg-info
 
 # docs output
 docs/_build
+
+.idea
