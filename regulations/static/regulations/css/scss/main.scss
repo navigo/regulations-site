@@ -329,17 +329,17 @@ Clearfix
 #logo {
   height: 32px;
   margin-top: 5px;
-
+  position: absolute;
 }
 
 #logo-text {
   font-family: 'Lato', sans-serif;
   color: #666666;
   font-size: 0.75em;
-  margin-top: 18px;
   font-weight: 400;
-  margin-left: -63px;
+  margin-top: 15px;
   position: absolute;
+  margin-left: 1px;
 }
 
 #logo-text-redline {
