@@ -17,7 +17,7 @@ class TemplateTest(TestCase):
         t = get_template('regulations/base.html')
         rendered = t.render(c)
 
-        title = '2 CFR Part 204 | eRegulations'
+        title = '2 CFR Part 204 | Markup'
         self.assertTrue(title in rendered)
 
 

@@ -5,11 +5,11 @@
 
 {% block title %}
     {% if node_type == 'appendix' %}
-        {{formatted_id}} to {{meta.cfr_title_number}} CFR {{reg_part}} | eRegulations
+        {{formatted_id}} to {{meta.cfr_title_number}} CFR {{reg_part}} | Markup
     {% elif node_type == 'interp' %}
-        {{formatted_id}} | eRegulations
+        {{formatted_id}} | Markup
     {% else %}
-        {{meta.cfr_title_number}} CFR {{formatted_id}} | eRegulations
+        {{meta.cfr_title_number}} CFR {{formatted_id}} | Markup
     {% endif %}
 {% endblock %}
 
@@ -21,7 +21,7 @@
 
 <!--[if lt IE 8]>
     <div class="browser-warning displayed">
-        <h2>Please note that the eRegulations tool does not support Internet Explorer version 7 or below.</h2>
+        <h2>Please note that the Markup tool does not support Internet Explorer version 7 or below.</h2>
         <ul>
             <li>To improve your experience, please <a href="http://browsehappy.com/">upgrade your browser <span class="cf-icon cf-icon-right"></span></a></li>
             <li>If you are using IE8 or later, you may need to turn off "Compatibility View."</li>

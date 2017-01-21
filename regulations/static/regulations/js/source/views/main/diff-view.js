@@ -29,11 +29,11 @@ var DiffView = ChildView.extend({
         }
     },
 
-    // "12 CFR Comparison of §1005.1 | eRegulations"
+    // "12 CFR Comparison of §1005.1 | Markup"
     assembleTitle: function() {
         var titleParts, newTitle;
         titleParts = _.compact(document.title.split(' '));
-        newTitle = [titleParts[0], titleParts[1], this.sectionLabel, '|', 'eRegulations'];
+        newTitle = [titleParts[0], titleParts[1], this.sectionLabel, '|', 'Markup'];
         return newTitle.join(' ');
     }
 });

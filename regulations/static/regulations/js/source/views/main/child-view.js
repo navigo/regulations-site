@@ -76,7 +76,7 @@ var ChildView = Backbone.View.extend({
     assembleTitle: function() {
         var titleParts, newTitle;
         titleParts = _.compact(document.title.split(' '));
-        newTitle = [titleParts[0], titleParts[1], this.sectionLabel, '|', 'eRegulations'];
+        newTitle = [titleParts[0], titleParts[1], this.sectionLabel, '|', 'Markup'];
         return newTitle.join(' ');
     },
 
