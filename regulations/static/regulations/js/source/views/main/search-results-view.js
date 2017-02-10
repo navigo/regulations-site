@@ -24,7 +24,7 @@ var SearchResultsView = ChildView.extend({
         // because the user can select a different version to pull search results from
         this.resultsRegVersion = this.options.regVersion;
         this.page = parseInt(this.options.page, 10) || 0;
-        this.title = 'Search of ' + this.options.docId + ' for ' + this.query + ' | Markup';
+        this.title = 'Search of ' + this.options.docId + ' for ' + this.query + ' | Redline';
 
         // if the browser doesn't support pushState, don't
         // trigger click events for links

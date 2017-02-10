@@ -1,5 +1,5 @@
 {% extends "regulations/generic_universal.html" %}
-{% block title %}About Markup{% endblock %}
+{% block title %}About Redline{% endblock %}
 {% load static from staticfiles %}
 {% load macros %}
 
@@ -17,7 +17,7 @@
 
     <div class="title-hero">
         <div class="inner-wrap group">
-          <h2 class="hero-heading">About Markup</h2>
+          <h2 class="hero-heading">About Redline</h2>
         </div> <!-- /.inner-wrap -->
     </div> <!-- /.hero -->
 
@@ -25,19 +25,12 @@
     <section class="about-section group" id="about-intro">
     <div class="inner-wrap group">
         <div class="content-primary column-l">
-            <p>Markup makes regulations <a href="#read" class="standard">easier to read</a> and <a href="#navigation" class="standard">navigate</a>. It
-            clarifies regulations by bringing <a href="#related-info">related information</a> and <a href="#timeline" class="standard">regulatory history</a>
-            to the forefront. It is a work in progress by the
-            {% external_link url="http://consumerfinance.gov" text="Consumer Financial Protection Bureau" %}
-            and
-            {% external_link url="https://18f.gsa.gov" text="18F" %};
-            it is a public domain work of the United States Government.</p>
+            <p>Redline makes regulations and legislation easier to read and navigate. It clarifies regulations by bringing related information and regulatory history to the forefront.</p>
         </div>
 
         <div class="content-secondary column-r well dev-well">
-            <span class="cf-icon cf-icon-github"></span><span class="icon-text">Github</span>
             <h3>Customers</h3>
-            <p>Redline is servicing only early access customers.  {% external_link url="https://markup.ai/" text="Join our waitlist" %} for updates.</p>
+            <p>Markup is servicing only early access customers.  {% external_link url="http://markup.ai/" text="Join our waitlist" %} for updates.</p>
         </div>
     </div>
     <div id="read" class="inner-wrap easy-read group">
@@ -50,7 +43,7 @@
         </div>
 
         <div class="content-primary column-l">
-            <img src="{%static "regulations/img/easy-01-1.png" %}" class="s-bump about-screenshot" alt="Markup application screenshot">
+            <img src="{%static "regulations/img/easy-01-1.png" %}" class="s-bump about-screenshot" alt="Redline application screenshot">
         </div>
     </div>
     </section>
@@ -98,7 +91,7 @@
             </div> <!-- /.easy-nav -->
         </div>
 
-        <img src="{%static "regulations/img/nav-wayfinding.gif" %}" class="bump responsive-img" alt="Markup navigation screenshot">
+        <img src="{%static "regulations/img/nav-wayfinding.gif" %}" class="bump responsive-img" alt="Redline navigation screenshot">
     </div>
     </section>
     {% endblock %}
@@ -109,8 +102,8 @@
         <h3>Related information</h3>
 
         <div class="content-primary column-r">
-            <img src="{%static "regulations/img/related-01.png" %}" alt="Markup defined terms, linked references, and official interpretation screenshot">
-            <img src="{%static "regulations/img/related-02.png" %}" class="bump" alt="Markup section-by-section analysis screenshot">
+            <img src="{%static "regulations/img/related-01.png" %}" alt="Redline defined terms, linked references, and official interpretation screenshot">
+            <img src="{%static "regulations/img/related-02.png" %}" class="bump" alt="Redline section-by-section analysis screenshot">
         </div>
 
         <div class="content-secondary column-l">
@@ -137,7 +130,7 @@
         <h3>Regulation timeline</h3>
 
         <div class="content-secondary column-l">
-            <img src="{%static "regulations/img/regtimeline-01.png" %}" class="s-bump" alt="Markup timeline navigation screenshot">
+            <img src="{%static "regulations/img/regtimeline-01.png" %}" class="s-bump" alt="Redline timeline navigation screenshot">
         </div>
 
         <div class="content-primary column-r">
@@ -150,7 +143,7 @@
                 <li><strong>Compare</strong> any two revisions of the regulation, word for word, by selecting a date in the menu.</li>
             </ol>
 
-            <img src="{%static "regulations/img/regtimeline-02.png" %}" alt="Markup revision comparison screenshot">
+            <img src="{%static "regulations/img/regtimeline-02.png" %}" alt="Redline revision comparison screenshot">
         </div>
     </div>
     </section>

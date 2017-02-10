@@ -89,11 +89,11 @@ var RegView = ChildView.extend({
 
     assembleTitle: function() {
       if (this.options.subContentType === 'supplement') {
-        return 'Supplement I to Part ' + this.docId + ' | Markup';
+        return 'Supplement I to Part ' + this.docId + ' | Redline';
       } else if (this.options.subContentType === 'appendix') {
-        return 'Appendix ' + this.id.substr(this.id.length - 1) + ' to Part ' + this.docId + ' | Markup';
+        return 'Appendix ' + this.id.substr(this.id.length - 1) + ' to Part ' + this.docId + ' | Redline';
       } else {
-        return this.cfrTitle + ' CFR ' + this.sectionLabel + ' | Markup';
+        return this.cfrTitle + ' CFR ' + this.sectionLabel + ' | Redline';
       }
     },
 
